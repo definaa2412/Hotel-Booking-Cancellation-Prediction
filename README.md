@@ -25,24 +25,51 @@ Defina Ambarwati : [Github](https://github.com/definaa2412)
 ## Summary
 ### Data Preprocessing
 1. Data Cleaning
-    * Handling Missing Values
+   * Handling Missing Values
       * Drop **company** column because it's containing 94,3% missing data.
       * Imputing **agent** column with 0 (without an agent).
       * Imputing **country** column with its mode because it has categorical data type.
       * Imputing **children** column with 0 (customer doesn't have any children).
-    * Handling Double Meaning Category and Unimportant Data
+   * Handling Double Meaning Category and Unimportant Data
       * Change Undefined to SC (They have the same meaning, *No Meal*)
       * Drop rows with 0 adults, 0 children and 0 babies.
-    * Feature Engineering
+   * Feature Engineering
     
-2. Exploratory Data Analysis
-   * From where the most guests are coming?
-     ![The most guest](https://github.com/definaa2412/Hotel-Booking-Cancellation-Prediction/blob/main/images/The%20most%20guest.jpg)
-     Ans: Portugal
+### Exploratory Data Analysis
+   1. From where the most guests are coming?
+      ![The most guest](https://github.com/definaa2412/Hotel-Booking-Cancellation-Prediction/blob/main/images/The%20most%20guest.jpg)
+      Ans: Portugal
      
-   * How much do guests pay for a room per night?
+   2. How much do guests pay for a room per night?
+      ![Reserved room](https://github.com/definaa2412/Hotel-Booking-Cancellation-Prediction/blob/main/images/Reserved%20room%20type%20adr.png) ![Meal type](https://github.com/definaa2412/Hotel-Booking-Cancellation-Prediction/blob/main/images/Type%20meal%20adr.png)
      
      Ans: Average price per room depending on its type and meal arrangement.
+     
+   3. How does the price vary per night over the year?
+      ![Price vary](https://github.com/definaa2412/Hotel-Booking-Cancellation-Prediction/blob/main/images/room%20per%20night.png)
+   
+      Ans : The number of guests in Resort Hotels reaches the highest value in summer, while the number of guests in City Hotels relatively higher than Resort Hotels.
+  
+   4. How long do people stay at the hotels?
+      ![People long stay](https://github.com/definaa2412/Hotel-Booking-Cancellation-Prediction/blob/main/images/Long%20Stay.png)
+   
+      Ans : For 1-5 total nights, City Hotel is preferable, while Resort Hotel is preferable for more than five nights.
+   
+   5. How many bookings were cancelled?
+      ![Booking cancelled](https://github.com/definaa2412/Hotel-Booking-Cancellation-Prediction/blob/main/images/many%20booking%20cancelled.png)
+   
+      Ans : There are  37.1 % bookings were cancelled. So, this target variable is categorized into **Imbalance Data**.
+     
+### Data Preparation for Modelling
+   1. Drop some variables to make the model more general.
+   2. Get dummies for the categorical variables.
+   3. Standardize the numerical variables.
+   4. Handling the imbalanced dataset with SMOTE.
+   5. Split the data into train and test split.
+   
+### Machine Learning Model
+
+   
      
      
     
