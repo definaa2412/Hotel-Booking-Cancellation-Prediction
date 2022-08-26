@@ -154,13 +154,15 @@ $\qquad$ Extract month and day value from **reservation_status_date**
     
 ### Conclusions
 
-    1. The best machine learning model to predict hotel booking cancellation is Random Forest with the accuaracy reaches 94%.
-    2. The three most important features to predict hotel booking cancellation are **lead_time**, **adr** and **deposit_type**.
+1. The best machine learning model to predict hotel booking cancellation is Random Forest with the accuaracy reaches 94%.
+2. The three most important features to predict hotel booking cancellation are **lead_time**, **adr** and **deposit_type**.
     
 ### Recommendations
 
   1. Holding promotions that attract more tourists to increase visitors from abroad.
-  2. 
+  2. Create a forecasting model to predict the coming month's prices so that customers who book today for the next two months can estimate the estimated costs they have to pay to reduce order cancellations possibly.
+  3. In a long **lead_time**, it is recommended that the customer has paid off two weeks before the day of stay to reduce the possibility of cancelling the order.
+  4. Hotels are advised to use a **Non Refundable** deposit system to reduce the possibility of booking cancellations.
    
      
      
