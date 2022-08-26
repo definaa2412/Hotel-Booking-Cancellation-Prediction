@@ -68,6 +68,38 @@ Defina Ambarwati : [Github](https://github.com/definaa2412)
    5. Split the data into train and test split.
    
 ### Machine Learning Model
+1. Choose the best machine learning model.
+   
+   **ROC CURVE**
+   ![ROC](https://github.com/definaa2412/Hotel-Booking-Cancellation-Prediction/blob/main/images/ROC%20curve.png)
+   
+   **Model Accuracy Score**
+   
+  <div align="center">
+  
+  | Model                    | Accuracy Score                                                          |   
+  | -----------------------------   |:---------------------------------------------------------------------:|
+  | Random Forest Classifier        | 0.940743  |
+  | LGBM                    | 0.919647           |
+  | KNN                     | 0.891118 |
+  | Gradient Boosting Classifier               | 0.849458 |
+  | XGBoost               | 0.844359 |
+  | Ada Boost Classifier               | 0.802866 |
+  | Logistic Regression               | 0.844359 |
+  | XGBoost               | 0.844359 |
+  
+  </div>
+  
+        Based on the two outputs above, it can conclude that Random Forest is the best model to predict hotel booking cancellation with the accuracy reachs 94%. 
+  
+2. Features Importance
+   
+   ![FI](https://github.com/definaa2412/Hotel-Booking-Cancellation-Prediction/blob/main/images/feature%20importance.png)
+   
+         Based on the picture above, three highest important features to predict hotel booking cancellation is **lead_time**, **adr** and **deposit_type**.
+         
+    * **lead_time**
+   
 
    
      
