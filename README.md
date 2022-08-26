@@ -93,13 +93,27 @@ Defina Ambarwati : [Github](https://github.com/definaa2412)
         Based on the two outputs above, it can conclude that Random Forest is the best model to predict hotel booking cancellation with the accuracy reachs 94%. 
   
 2. Features Importance
-   
+
+   <div align="center">
+  
    ![FI](https://github.com/definaa2412/Hotel-Booking-Cancellation-Prediction/blob/main/images/feature%20importance.png)
+  
+   </div>
    
-         Based on the picture above, three highest important features to predict hotel booking cancellation is **lead_time**, **adr** and **deposit_type**.
+   Based on the picture above, three highest important features to predict hotel booking cancellation is **lead_time**, **adr** and **deposit_type**.
          
-    * **lead_time**
-   
+   * **lead_time**
+      ![Deposit percentage](https://github.com/definaa2412/Hotel-Booking-Cancellation-Prediction/blob/main/images/percetage%20deposit.png)
+      ![Histogram deposit](https://github.com/definaa2412/Hotel-Booking-Cancellation-Prediction/blob/main/images/histogram%20deposit.png)
+      
+     Customers who book hotels with **No deposit** type are less likely to cancel their orders. This is indeed favored by customers because there is no need for additional fees to be included in the order. 
+      
+      However, when compared to the hotels with **Non Refundable** type, it can be shown that the percentage of customers at the hotels with **No Deposit** type cancels their orders more than hotels with **Non Refundable** type.
+      
+    * **adr**
+    
+     
+      
 
    
      
