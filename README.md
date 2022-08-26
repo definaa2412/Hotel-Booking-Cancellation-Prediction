@@ -68,12 +68,14 @@ Defina Ambarwati : [Github](https://github.com/definaa2412)
    5. Split the data into train and test split.
    
 ### Machine Learning Model
-1. Choose the best machine learning model.
+
+**1. Best Machine Learning Model**
+
+   * **ROC Curve**
    
-   **ROC CURVE**
    ![ROC](https://github.com/definaa2412/Hotel-Booking-Cancellation-Prediction/blob/main/images/ROC%20curve.png)
    
-   **Model Accuracy Score**
+   * **Model Accuracy Score**
    
   <div align="center">
   
@@ -92,7 +94,7 @@ Defina Ambarwati : [Github](https://github.com/definaa2412)
   
         Based on the two outputs above, it can conclude that Random Forest is the best model to predict hotel booking cancellation with the accuracy reachs 94%. 
   
-2. Features Importance
+**2. Features Importance**
 
    <div align="center">
   
@@ -101,8 +103,15 @@ Defina Ambarwati : [Github](https://github.com/definaa2412)
    </div>
    
    Based on the picture above, three highest important features to predict hotel booking cancellation is **lead_time**, **adr** and **deposit_type**.
-         
+   
    * **lead_time**
+   
+     ![lead time](https://github.com/definaa2412/Hotel-Booking-Cancellation-Prediction/blob/main/images/lead%20time.png)
+     
+     Bookings made a few days before the arrival date are rarely canceled, whereas bookings made over one year in advance are canceled very often.
+     
+   * **deposit_type**
+   
       ![Deposit percentage](https://github.com/definaa2412/Hotel-Booking-Cancellation-Prediction/blob/main/images/percetage%20deposit.png)
       ![Histogram deposit](https://github.com/definaa2412/Hotel-Booking-Cancellation-Prediction/blob/main/images/histogram%20deposit.png)
       
@@ -110,8 +119,36 @@ Defina Ambarwati : [Github](https://github.com/definaa2412)
       
       However, when compared to the hotels with **Non Refundable** type, it can be shown that the percentage of customers at the hotels with **No Deposit** type cancels their orders more than hotels with **Non Refundable** type.
       
-    * **adr**
+   * **adr**
+     
+     <div align="center">
+     
+     <table>
+     <tr>
+        <td align="center" rowspan="2"> is_cancelled </td>
+        <td align="center" colspan="2"> adr </td>
+     </tr>
+     <tr>
+        <td align="center"> low </td>
+        <td align="center"> high </td>
+     </tr>
+     <tr>
+        <td align="center"> 0 </td>
+        <td align="center"> 36997 </td>
+        <td align="center"> 36391 </td>
+     </tr>
+     <tr>
+        <td align="center"> 1 </td>
+        <td align="center"> 20803 </td>
+        <td align="center"> 23208 </td>
+     </tr>
+     </table>
+
+     </div>
     
+          From the output table above, we can conclude that:
+          1. The low adr doesn't cancel more hotel booking than the high adr.
+          2. The high adr cancel more hotel booking than the low adr.
      
       
 
