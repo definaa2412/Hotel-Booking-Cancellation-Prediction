@@ -33,7 +33,9 @@ Defina Ambarwati : [Github](https://github.com/definaa2412)
    * Handling Double Meaning Category and Unimportant Data
       * Change Undefined to SC (They have the same meaning, *No Meal*)
       * Drop rows with 0 adults, 0 children and 0 babies.
-   * Feature Engineering
+2. Feature Engineering
+
+$\qquad$ Extract month and day value from **reservation_status_date**
     
 ### Exploratory Data Analysis
    1. From where the most guests are coming?
@@ -149,9 +151,16 @@ Defina Ambarwati : [Github](https://github.com/definaa2412)
           From the output table above, we can conclude that:
           1. The low adr doesn't cancel more hotel booking than the high adr.
           2. The high adr cancel more hotel booking than the low adr.
-     
-      
+    
+### Conclusions
 
+    1. The best machine learning model to predict hotel booking cancellation is Random Forest with the accuaracy reaches 94%.
+    2. The three most important features to predict hotel booking cancellation are **lead_time**, **adr** and **deposit_type**.
+    
+### Recommendations
+
+  1. Holding promotions that attract more tourists to increase visitors from abroad.
+  2. 
    
      
      
