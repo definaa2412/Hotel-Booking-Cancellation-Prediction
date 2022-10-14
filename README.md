@@ -20,6 +20,7 @@ Defina Ambarwati : [Github](https://github.com/definaa2412)
 | is_canceled                     | Value indicating if the booking was canceled (1) or not (0)           |
 | lead_time                       | Number of days that elapsed between the entering date of the booking into the PMS and the arrival date |
 | arrival_date_year               | Year of arrival date |
+| etc                             | etc |
 
 
 ## Summary
